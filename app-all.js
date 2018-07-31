@@ -1,4 +1,4 @@
-const hljs = require('highlight.js/lib/highlight');
+var hljs = require('highlight.js/lib/highlight');
 
 hljs.registerLanguage('1c', require('highlight.js/lib/languages/1c'));
 hljs.registerLanguage('abnf', require('highlight.js/lib/languages/abnf'));
